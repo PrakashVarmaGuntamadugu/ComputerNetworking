@@ -1,0 +1,2 @@
+This program is about client/server interaction. The client requests URLs from server. The server responds to the request and sends the response.
+A few of the URLS are blacklisted and they are logged in a separate file.

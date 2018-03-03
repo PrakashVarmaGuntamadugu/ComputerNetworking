@@ -12,7 +12,7 @@ Procedure :
     
    ./server 12255
 
-   Server waits for request from client
+   Server waits for request from client. 
 
 4. Run the program on client side.
    
@@ -21,7 +21,7 @@ Procedure :
 5. We receive the file successfully on to the server side as recive.txt
 
 
-In the zip file,
+In the zip folder,
 
 client.c represents client program
 

@@ -1,0 +1,28 @@
+Procedure:
+1. Create a C-based server that can runs on cse01.cse.unt.edu and accepts single client’s request on using sockets
+2. Create a C-based client that runs on cse02.cse.unt.edu and connects to the server
+3. On the client side, create a TCP segment as shown in Figure 1. Create a C structure with the following fields
+a. 16-bit source and destination port [Type: unsigned short int]
+b. 32-bit sequence number [Type: unsigned int]
+c. 32-bit acknowledgement number [Type: unsigned int]
+d. 4-bit data offset or header length (in multiples of 32-bit)
+e. 6-bit reserved section
+
+iii. Compute the 16-bit 
+
+sdsds
+d
+dssdsd
+
+dsdsdsd
+d
+sdsd
+sd
+sdsdsddsdsds
+
+
+lsdlsldsf
+
+ssdsdsdsdsdsddddddddddddddddddddddddddddddddd
+fsfsfsfsfffffffffffffffffsdsdsdddddddddddddddddddddddddddddddddddddddddssss
+sdddddddddddddddddd

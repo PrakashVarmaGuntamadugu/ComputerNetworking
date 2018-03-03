@@ -1,0 +1,84 @@
+
+***********************************************************************************************************
+Client send - connection request TCP segment
+Source port		-	0x5356
+Destination port		-	0x0898
+Sequence number		-	0x0000000A
+Acknowledgement number  	-	0x00000000
+Header length & flags	-	0x2332
+Receive window		-	0x0000
+Checksum			-	0x80D5
+Urgent data pointer 	-	0x0000
+Options			-	0x00000000
+
+***********************************************************************************************************
+Client recive - server responds to the request by creating a connection granted TCP segment
+Source port		-	0x0898
+Destination port		-	0x5356
+Sequence number		-	0x00000014
+Acknowledgement number  	-	0x0000000B
+Header length & flags	-	0x2312
+Receive window		-	0x0000
+Checksum			-	0x80E0
+Urgent data pointer 	-	0x0000
+Options			-	0x00000000
+
+***********************************************************************************************************
+Client send - client responds back with an acknowledgement TCP segment
+Source port		-	0x5356
+Destination port		-	0x0898
+Sequence number		-	0x0000000B
+Acknowledgement number  	-	0x00000015
+Header length & flags	-	0x2310
+Receive window		-	0x0000
+Checksum			-	0x80E1
+Urgent data pointer 	-	0x0000
+Options			-	0x00000000
+
+***********************************************************************************************************
+Client send - a close request TCP segment
+Source port		-	0x5356
+Destination port		-	0x0898
+Sequence number		-	0x0000000A
+Acknowledgement number  	-	0x00000000
+Header length & flags	-	0x2301
+Receive window		-	0x0000
+Checksum			-	0x8106
+Urgent data pointer 	-	0x0000
+Options			-	0x00000000
+
+***********************************************************************************************************
+Client recive - server responds back with an acknowledgment TCP segment
+Source port		-	0x0898
+Destination port		-	0x5356
+Sequence number		-	0x00000014
+Acknowledgement number  	-	0x0000000B
+Header length & flags	-	0x2310
+Receive window		-	0x0000
+Checksum			-	0x80E2
+Urgent data pointer 	-	0x0000
+Options			-	0x00000000
+
+***********************************************************************************************************
+Client recive - server again sends another close acknowledgement TCP segment
+Source port		-	0x0898
+Destination port		-	0x5356
+Sequence number		-	0x00000014
+Acknowledgement number  	-	0x0000000B
+Header length & flags	-	0x2301
+Receive window		-	0x0000
+Checksum			-	0x80F1
+Urgent data pointer 	-	0x0000
+Options			-	0x00000000
+
+***********************************************************************************************************
+Client send - client responds back with an acknowledgement TCP segment
+Source port		-	0x5356
+Destination port		-	0x0898
+Sequence number		-	0x0000000B
+Acknowledgement number  	-	0x00000015
+Header length & flags	-	0x2310
+Receive window		-	0x0000
+Checksum			-	0x80E1
+Urgent data pointer 	-	0x0000
+Options			-	0x00000000

@@ -1,0 +1,39 @@
+Using Dijkstra’s algorithm
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+v (u, v)
+w (u, x)
+x (u, x)
+y (u, x)
+z (u, x)
+-------------
+u (v, u)
+w (v, w)
+x (v, x)
+y (v, x)
+z (v, x)
+-------------
+u (w, y)
+v (w, v)
+x (w, y)
+y (w, y)
+z (w, y)
+-------------
+u (x, u)
+v (x, v)
+w (x, w)
+y (x, y)
+z (x, y)
+-------------
+u (y, x)
+v (y, x)
+w (y, w)
+x (y, x)
+z (y, z)
+-------------
+u (z, y)
+v (z, y)
+w (z, y)
+x (z, y)
+y (z, y)
+-------------
